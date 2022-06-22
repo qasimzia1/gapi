@@ -40,5 +40,5 @@ const lastyear = `${currentyear - 1}-${currentmonth}-${currentday}`;
  
 const populargames = `games?key=a75edc0889f6482a92aef3228cad5689&dates=${lastyear},${currentdate}&ordering=-rating&page_size=10`;
 
- const populargamesurl= () => `${base_url}${populargames}`;
- console.log(populargamesurl());
+ export const populargamesurl= () => `${base_url}${populargames}`;
+ 
