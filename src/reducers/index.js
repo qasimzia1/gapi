@@ -1,6 +1,7 @@
 import { combineReducers } from "redux";
 
 import gamereducers from './games';
+import gamedetailred from './gamedetailreducer'
 
 //  const initialstate = {
 //      name: '',
@@ -20,6 +21,7 @@ const rootreducer = combineReducers(
 {
     gamereducer: gamereducers,
     // user : userreducer
+    detail : gamedetailred,
 }
     
 )

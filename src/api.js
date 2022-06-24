@@ -2,6 +2,10 @@
 
 const base_url = "https://api.rawg.io/api/";
 
+
+
+
+
 //current month 
 const getcurrentmonth = ()=> {
 
@@ -48,3 +52,7 @@ const newgames = `games?key=a75edc0889f6482a92aef3228cad5689&dates=${lastyear},$
  export const populargamesurl= () => `${base_url}${populargames}`;
  export const upcominggamesurl = () => `${base_url}${upcominggames}`;
 export const newgamesurl = () => `${base_url}${newgames}`;
+export const gamedetailurl = (game_id) => `${base_url}games/${game_id}?key=a75edc0889f6482a92aef3228cad5689`;
+export const gamescreenshoturl = (game_id) => `${base_url}games/${game_id}/screenshots?key=a75edc0889f6482a92aef3228cad5689`
+
+//https://api.rawg.io/api/games/638650?key=a75edc0889f6482a92aef3228cad5689
