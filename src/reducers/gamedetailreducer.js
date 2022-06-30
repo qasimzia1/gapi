@@ -1,6 +1,6 @@
 
 
-const initialstate = { game : {}, screen:{}};
+const initialstate = { game : {platforms:[]}, screen:{results:[]}};
 
 const gamedetailred = (state = initialstate , action ) => {
 

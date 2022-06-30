@@ -1,0 +1,21 @@
+[debug] [2022-06-30T10:23:23.842Z] ----------------------------------------------------------------------
+[debug] [2022-06-30T10:23:23.845Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\QASIM\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-06-30T10:23:23.845Z] CLI Version:   11.1.0
+[debug] [2022-06-30T10:23:23.845Z] Platform:      win32
+[debug] [2022-06-30T10:23:23.846Z] Node Version:  v16.15.0
+[debug] [2022-06-30T10:23:23.847Z] Time:          Thu Jun 30 2022 15:23:23 GMT+0500 (Pakistan Standard Time)
+[debug] [2022-06-30T10:23:23.847Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-30T10:23:23.856Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-30T10:23:23.857Z] > authorizing via signed-in user (qasimziak85@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\react course\react practice\day wise preactice\gaminginfo\gapi
+

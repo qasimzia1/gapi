@@ -3,9 +3,11 @@ import { useDispatch, useSelector } from "react-redux";
 import { loadgame } from "../actions/gamesaction";
 import Gamescard from "../components/Gamescard";
 import gamereducers from "../reducers/games";
+import Gamedetail from   "../components/Gamedetail";
 //styling and animation
 import styled from "styled-components";
 import { motion } from "framer-motion";
+
 
 function Home() {
   const dispatch = useDispatch();
@@ -21,6 +23,7 @@ function Home() {
 
   return (
     <Gamelist>
+      <Gamedetail />
       <h2>UP COMMING  GAMES</h2>
 
       <Games>
